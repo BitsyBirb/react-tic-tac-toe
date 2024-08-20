@@ -1,9 +1,10 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
+import ReactDOM from 'react-dom/client'; // What is ReactDOM: React's library to talk to web browsers
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+// Renders the actual app itself it would appear
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>

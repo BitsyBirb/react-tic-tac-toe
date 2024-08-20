@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
+import Game from './components/MyGame'
 
+// Seems like this is what gets rendered but why
 function App() {
   return (
     <div className="App">
@@ -17,6 +19,7 @@ function App() {
         >
           Learn React
         </a>
+        <Game />
       </header>
     </div>
   );
